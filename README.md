@@ -110,4 +110,7 @@ You can create your own homepage for free without notifying me by forking this p
 
 
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://paypal.me/mrinternetix)
+
+
 
