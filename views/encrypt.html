@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FileSync-Encrpyt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <style>
+form{
+  font-family: sans-serif;
+  background-color: #e17055;
+  color: #fff;
+  margin-top: 150px;
+  padding: 20px;
+}
+.spacing{
+    border-left: 2px solid white;
+    padding-left: 42px;
+}
+.wrapper{
+  padding: 40px;
+  text-align:center;
+}
+.wrapper h2{
+  padding-bottom: 20px;
+}
+.wrapper #file-input{
+  display:none;
+}
+
+.wrapper label[for='pdf'] *{
+  vertical-align:middle;
+  cursor:pointer;
+}
+
+.wrapper label[for='pdf'] span{
+  margin-left: 10px
+}
+
+.wrapper i.remove{
+  vertical-align:middle;
+  margin-left: 5px;
+  cursor:pointer;
+  display:none;
+}
+@media screen and (max-width:600px) {
+  #fileinput{
+    width: 220px;
+  }
+  form{
+    margin-top: 60px;
+  }
+  .spacing{
+    border: none;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+               
+                   <form class="container-fluid mt-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="wrapper">
+                                <h2>Select PDF File</h2>
+                                <input type="file"  id="fileinput" accept="application/pdf" name="img" accept="application/pdf" required>
+                                <label for="pdf">
+                                  <i class="fa fa-paperclip fa-2x"></i>
+                                  <span></span>
+                                </label>
+                                <i class="fa fa-times-circle remove"></i>
+                              </div>
+                            
+                        </div>
+                        <div class="col-sm-6 spacing">
+                            <h3>Set Password</h3><br>
+                            New Password:<br><input type="password" id="pass" name="password" required><br><br>
+                            Confirm Password:<input type="password" id="Confirm_pass" name="password" required><br><br>
+                            <button id="submit" type="button" class="btn btn-success">Download</button>
+                        </div>
+                   </form> 
+                    
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script>
+        $('document').ready(function(){
+  
+                var $file = $('#pdf'),
+                    $label = $file.next('label'),
+                    $labelText = $label.find('span'),
+                    $labelRemove = $('i.remove'),
+                    labelDefault = $labelText.text();
+                
+                // on file change
+                $file.on('change', function(event){
+                    var fileName = $file.val().split( '\\' ).pop();
+                        if( fileName ){
+                    console.log($file)
+                            $labelText.text(fileName);
+                    $labelRemove.show();
+                    }else{
+                            $labelText.text(labelDefault);
+                    $labelRemove.hide();
+                    }
+                });
+                
+                // Remove file   
+                $labelRemove.on('click', function(event){
+                    $file.val("");
+                    $labelText.text(labelDefault);
+                    $labelRemove.hide();
+                    console.log($file)
+                });
+})
+    </script> -->
+    <script src="/static/js/encrypt.js"></script>
+</body>
+</html>

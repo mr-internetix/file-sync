@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+.navbar-brand{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 27px;
+}
+nav{
+    position: fixed !important;
+    width: 100vw;
+    top: 0;
+    z-index: 999999;
+}
+.home-1{
+    margin-top: 60px;
+}
+
+.topbar{
+
+    box-shadow: 0px 3px gainsboro;
+}
+
+#navbar-logo{
+    width:50px !important; 
+}
+
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+}
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+}
+.fa-user-circle{
+    font-size: 50px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+
+#lottie-animation{
+    width: 500px; 
+    height: 500px;
+}
+a{
+    text-decoration:none;
+}
+footer{
+    box-shadow: 3px 2px gainsboro;
+}
+@media only screen and (max-width:578px){
+    #lottie-animation{
+        width: 353px !important;
+    }
+
+    #lottie-container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #heading,#heading-para{
+        display: none;
+    }
+
+    .fa-user-circle{
+        display: none;
+    }
+
+}
+
+#logo-img{
+    width: 200px;
+
+}
+
+.heart{
+    color: red;
+}
+
+body::-webkit-scrollbar {
+    width: 0.1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    outline: 1px solid slategrey;
+  }
+
+  footer{
+    background: black;
+    color: white;
+  }
+
+@media only screen and (max-width:760px){
+    #lottie-animation{
+        width: 400px;
+        height: 400px;
+    }
+
+    #logo-img{
+        width: 150px;
+    }
+    .row{
+        flex-direction: column-reverse;
+    }
+
+    #lottie-container{
+        justify-content: center !important;
+        align-items: center;
+    }
+    #intro_data{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        }
+}
+
+@media only screen and (max-width: 991.98px) {
+
+    #lottie-animation{
+        width: 361px !important;
+    }
+}
+
+/* @media only screen and (max-width: 1199.98px) { 
+
+    
+} */

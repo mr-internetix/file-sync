@@ -5,7 +5,7 @@
 
 ##
 
-**File sharing web platform**  -- stores data and can be used to share files with firebase authentication and custom express api's
+**File sharing web platform**  -- stores data and can be used to share files with firebase authentication , PDF encryption  and custom express api's 
 
  # **build using()**  
 
@@ -95,7 +95,7 @@ const host = "https://localhost:3000"
 
 ## Database configs
 
-`Just add the Database url in .env file ( I expect that mongo will create the collections automatically if not
+`Just add the Database url in .env file ( I expect that mongo will create the collections automatically if not,
 create manually by creating three collections i.e 
 ` 
 * users

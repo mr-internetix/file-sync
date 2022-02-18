@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File-Share:easy file sharing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="/static/css/home.css">
+        
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid pb-3">
+          <a class="navbar-brand"><img id='navbar-logo'src="static/images/file-sharing.png"> <img id="logo-img" src="https://see.fontimg.com/api/renderfont4/z8xYa/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/RmlsZSBTeW5j/headbears.png" alt="log-img"></a>
+          <form class="d-flex">
+            <i class="far fa-user-circle text-primary"></i> 
+            <button type="button" id ="Login" class="btn btn-primary btn-lg ms-3">LOGIN</button>
+          </form>
+        </div>
+      </nav>
+    <div class="container home-1">
+        <div class="row">
+            <div class="col-sm-6" id ="intro_data">
+              <h1 id="heading"class="mt-5">We transfer file fast,secure and easy.</h1>
+              <p id="heading-para">Best platform to transfer the file with fast and in the securily manner.</p>
+              <button type="button" id='free_trial' class="btn btn-primary btn-lg">upload Multiple</button>&nbsp;
+              <button type="button" id="share_button" class="btn btn-outline-primary btn-lg">Share Files Now <i class="fa fa-paper-plane text-primary" aria-hidden="true"></i></button>
+            </div>
+            <div class="col-sm-2 d-flex" id="lottie-container" >
+                <lottie-player  id="lottie-animation"src="https://assets10.lottiefiles.com/private_files/lf30_y2ryub2r.json"  background="transparent"  speed="1"    loop  autoplay></lottie-player>
+            </div>
+        </div>
+    </div> 
+    <div class="container mt-5 mb-5">
+      <h1 class="mt-5 text-center sudo-h1">Keep your task simple.</h1>
+      <p class="text-center">File share keep your transfer simple and faster.<br>we have simple UI and better user experience.</p>
+  </div>
+  <div class="container mt-5 pt-5">
+      <div class="row mt-5">
+          <div class="col-sm-6 mt-3">
+              <h3>Send your file directly through link.</h3>
+              <p>Send file directly to many people through a single link by uploading here.</p>
+              <br>
+              <br>
+              <p><a href="/send">Send File Now &#8594;</a></p>
+
+
+          </div>
+          <div class="col-sm-6 mt-3 pe-3">
+               <div style="height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/6w5C6yoUlPeDwtZTx9" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+          </div>
+      </div>
+     
+  </div>
+  <div class="container mt-5 pt-5">
+      <div class="row mt-5">
+          <div class="col-sm-6 mt-3 pe-3">
+              <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/xT8pe2M9qM4bidp4GY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/gentlemanscholar-gentlemanscholar-upwork-equifax-security-xT8pe2M9qM4bidp4GY"></a></p>
+         </div>
+          <div class="col-sm-6 mt-3">
+              <h3>Secure your pdf through password.</h3>
+              <p>Upload your file here and set the password of the pdf and confirm the password.And download the file with Encryption.</p>
+              <br>
+              <br>
+              <p><a href="/encrypt">Encrypt your pdf &#8594;</a></p>
+
+
+          </div>
+         
+      </div>
+     
+  </div>
+  <div class="container mt-5 pt-5">
+      <div class="row mt-5">
+          <div class="col-sm-6 mt-3">
+              <h3>Save your Important document Here securily.</h3>
+              <p>Upload your important document here and access your document through anywhere, by simply login to the website.</p>
+              <br>
+              <br>
+              <p><a href="/login">Upload your File &#8594;</a></p>
+
+
+          </div>
+          <div class="col-sm-6 mt-3 pe-3">
+              <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/lo5HLcAPFSgTZNTpAn" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/SandiaLabs-computer-cyber-lo5HLcAPFSgTZNTpAn"></a></p>
+          </div>
+      </div>
+     
+  </div>
+
+  <footer class="text-center mt-5 pb-3">
+      <hr>
+      Made with <span class="heart"> &#x2665; </span> for India.
+  </footer>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.getElementById("share_button").addEventListener('click',()=>{location.href = "/send";});
+        document.getElementById("Login").addEventListener('click',()=>{location.href = "/login";});
+        document.getElementById("free_trial").addEventListener('click',()=>{window.location.assign('/login')});
+        
+    </script>
+</body>
+</html>
