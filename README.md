@@ -1,7 +1,6 @@
 
 
-![Logo](https://see.fontimg.com/api/renderfont4/z8xYa/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/RmlsZSBTeW5j/headbears.png)
-
+![Logo](https://ik.imagekit.io/s3ixzlcmo8v/filesync12_2F4DsqlpaVm_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1645179823107)
 
 ##
 
