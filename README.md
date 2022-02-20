@@ -8,14 +8,14 @@
 
  # **build using()**  
 
- * **HTML >** Markdown
- * **CSS >** Styling Markdown 
- * **Javascript >** Plain Javascript in frontend 
- * **EJS >** Templating Engine 
- * **Node JS >** Backend Server which works on V8 engine of Javascript
- * **Express JS >** Backend Framework 
- * **Mongo DB >** Database 
- * **Firebase >** Used for authentication of users
+ * **HTML :** Markdown
+ * **CSS :** Styling Markdown 
+ * **Javascript :** Plain Javascript in frontend 
+ * **EJS :** Templating Engine 
+ * **Node JS :** Backend Server which works on V8 engine of Javascript
+ * **Express JS :** Backend Framework 
+ * **Mongo DB :** Database 
+ * **Firebase :** Used for authentication of users
 
 
 
@@ -102,8 +102,9 @@ create manually by creating three collections i.e
 * userfiles
 # License
 MIT License.
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-You can create your own homepage for free without notifying me by forking this project under the following conditions:
+You can use this project for free without notifying me by forking this project under the following conditions:
 
 * Add a link to my Repository or [my-profile](https://www.github.com/mr-internetix)
 * Star the repository 
